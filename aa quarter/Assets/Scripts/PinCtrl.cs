@@ -10,6 +10,7 @@ public class PinCtrl : MonoBehaviour {
 	private Text txt;
 	private bool isPinned = false;
 	private GameObject circle;
+	private bool toChangeSpeed;
 	private Text[] countTxt;
 	private PresistanceObject presistanceObject;
 	private GameCtrl gameCtrl;
@@ -19,7 +20,9 @@ public class PinCtrl : MonoBehaviour {
 	private DataController dataController;
 	private LevelData levelData;
 	private int direction = 1;
+	private new AudioSource[] audio;
 	void Start(){
+		audio = gameObject.GetComponents<AudioSource> ();
 		currentLevel = PlayerPrefs.GetInt ("Level", 1);
 		circle = GameObject.FindGameObjectWithTag("Rotator");
 		countTxt = circle.GetComponentsInChildren<Text> ();
@@ -29,6 +32,7 @@ public class PinCtrl : MonoBehaviour {
 		levelData = dataController.GetCurrentLevelData (currentLevel);
 		speed = levelData.pinSpeed;
 		direction = levelData.direction;
+		toChangeSpeed = levelData.toChangeSpeed;
 	}
 	// Update is called once per frame
 	void FixedUpdate () {
@@ -39,6 +43,7 @@ public class PinCtrl : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
 		if (col.CompareTag ("orange1") || col.CompareTag ("orange2") || col.CompareTag ("blue1") || col.CompareTag ("blue2")) {
 			txt = col.GetComponentInChildren<Text> ();
+			CircleCtrl circleCtrl = col.GetComponentInParent<CircleCtrl> ().GetComponent<CircleCtrl> ();
 			int current;
 			int.TryParse (txt.text, out current);
 			transform.SetParent (col.transform);
@@ -48,12 +53,19 @@ public class PinCtrl : MonoBehaviour {
 				presistanceObject.ChangeTxt ("Faild!!");
 				gameCtrl.EndGame (false);
 				StartCoroutine ("Wait");
+				audio[1].Play ();
+				return;
 			}
+			audio[0].Play();
 			current--;
 			txt.text = current.ToString ();
-			col.GetComponentInParent<CircleCtrl> ().GetComponent<CircleCtrl> ().speed *= direction;
+			circleCtrl.speed *= direction;
+			if (toChangeSpeed) {
+				circleCtrl.ChangeSpeed ();
+			}
 
 		} else if (col.tag == "Pin") {
+			audio[1].Play ();
 			gameEnded = true;
 			presistanceObject.ChangeTxt ("Faild!!");
 			gameCtrl.EndGame (false);

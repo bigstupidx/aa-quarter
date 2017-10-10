@@ -9,17 +9,21 @@ public class CircleCtrl : MonoBehaviour {
 	private LevelData levelData;
 	public GameObject[] staticPins;
 	public int[] activePins;
+	private int speedUp = 1;
+	private float minSpeed;
+	private float maxSpeed;
 	// Use this for initialization
 	void Start () {
 		currentLevel = PlayerPrefs.GetInt ("Level", 1);
 		dataController = FindObjectOfType<DataController> ();
 		levelData = dataController.GetCurrentLevelData (currentLevel);
 		speed = levelData.circleSpeed;
+		minSpeed = levelData.speedMin;
+		maxSpeed = levelData.speedMax;
 		activePins = levelData.activePins;
 		for (int i = 0; i < 32; i++) {
 			if (activePins [i] == 0) {
 				staticPins [i].SetActive(false);
-				Debug.Log (i);
 			}
 		}
 	}
@@ -27,5 +31,13 @@ public class CircleCtrl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.Rotate (0f,0f,speed * Time.deltaTime);
+	}
+
+	public void ChangeSpeed(){
+		Debug.Log (speed);
+		if (speed > maxSpeed || speed < minSpeed) {
+			speedUp *= -1;
+		}
+		speed += 20f * speedUp;
 	}
 }

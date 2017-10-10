@@ -7,6 +7,9 @@ public class LevelData {
 	public int direction;
 	public float pinSpeed;
 	public float circleSpeed;
+	public bool toChangeSpeed;
+	public float speedMin;
+	public float speedMax;
 	public string orange1txt;
 	public string blue1txt;
 	public string orange2txt;
