@@ -4,6 +4,7 @@ using UnityEngine;
 
 [System.Serializable]
 public class LevelData {
+	public int levelNumber;
 	public int direction;
 	public float pinSpeed;
 	public float circleSpeed;

@@ -24,6 +24,10 @@ public class MenuCtrl : MonoBehaviour {
 			successFaild.color = Color.green;
 		}
 	}
+	void Update(){
+		storedLevel = PlayerPrefs.GetInt ("Level",1);
+		LevelTxt.text = "Level " + storedLevel;
+	}
 	public void ResetLevels(){
 		PlayerPrefs.SetInt ("Level",1);
 	
