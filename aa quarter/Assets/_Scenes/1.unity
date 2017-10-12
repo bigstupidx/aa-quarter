@@ -496,53 +496,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4094985423505756, guid: 31ec7c6546593462988a08708f60d4bf,
     type: 2}
   m_PrefabInternal: {fileID: 1431800137}
---- !u!1001 &369614716
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4805237495310012, guid: c1ceb8e73458a489a9ebc8b22a8474f5, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4805237495310012, guid: c1ceb8e73458a489a9ebc8b22a8474f5, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -1.736
-      objectReference: {fileID: 0}
-    - target: {fileID: 4805237495310012, guid: c1ceb8e73458a489a9ebc8b22a8474f5, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4805237495310012, guid: c1ceb8e73458a489a9ebc8b22a8474f5, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4805237495310012, guid: c1ceb8e73458a489a9ebc8b22a8474f5, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4805237495310012, guid: c1ceb8e73458a489a9ebc8b22a8474f5, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4805237495310012, guid: c1ceb8e73458a489a9ebc8b22a8474f5, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4805237495310012, guid: c1ceb8e73458a489a9ebc8b22a8474f5, type: 2}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1026356828355130, guid: c1ceb8e73458a489a9ebc8b22a8474f5, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114873485279645368, guid: c1ceb8e73458a489a9ebc8b22a8474f5, type: 2}
-  m_ParentPrefab: {fileID: 100100000, guid: c1ceb8e73458a489a9ebc8b22a8474f5, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1001 &379661216
 Prefab:
   m_ObjectHideFlags: 0

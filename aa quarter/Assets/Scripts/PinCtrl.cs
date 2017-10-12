@@ -21,6 +21,7 @@ public class PinCtrl : MonoBehaviour {
 	private LevelData levelData;
 	private int direction = 1;
 	private new AudioSource[] audio;
+	private int maxLevel;
 	void Start(){
 		audio = gameObject.GetComponents<AudioSource> ();
 		currentLevel = PlayerPrefs.GetInt ("Level", 1);
@@ -50,7 +51,7 @@ public class PinCtrl : MonoBehaviour {
 			isPinned = true;
 			if (current <= 0) {
 				gameEnded = true;
-				presistanceObject.ChangeTxt ("Faild!!");
+				presistanceObject.ChangeTxt ("Failed!!");
 				gameCtrl.EndGame (false);
 				StartCoroutine ("Wait");
 				audio[1].Play ();
@@ -67,7 +68,7 @@ public class PinCtrl : MonoBehaviour {
 		} else if (col.tag == "Pin") {
 			audio[1].Play ();
 			gameEnded = true;
-			presistanceObject.ChangeTxt ("Faild!!");
+			presistanceObject.ChangeTxt ("Failed!!");
 			gameCtrl.EndGame (false);
 			StartCoroutine ("Wait");
 		}
@@ -77,6 +78,10 @@ public class PinCtrl : MonoBehaviour {
 		if (!gameEnded && countTxt[0].text == "0" && countTxt[1].text == "0" && countTxt[2].text == "0" && countTxt[3].text == "0") {
 			gameEnded = true;
 			nextLevel = PlayerPrefs.GetInt ("Level", 1) + 1;
+			maxLevel = PlayerPrefs.GetInt ("MaxLevel",1);
+			if (nextLevel > maxLevel) {
+				PlayerPrefs.SetInt ("MaxLevel", nextLevel);
+			}
 			PlayerPrefs.SetInt ("Level", nextLevel);
 			presistanceObject.ChangeTxt("Success!!");
 			gameCtrl.EndGame(true);
