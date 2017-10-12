@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PresistanceObject : MonoBehaviour {
 
-	public string txtString = "aa";
+	public string txtString = "Let's start";
 	void Start () {
 		DontDestroyOnLoad (this);
 	}

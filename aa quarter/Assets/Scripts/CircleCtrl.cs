@@ -34,7 +34,6 @@ public class CircleCtrl : MonoBehaviour {
 	}
 
 	public void ChangeSpeed(){
-		Debug.Log (speed);
 		if (speed > maxSpeed || speed < minSpeed) {
 			speedUp *= -1;
 		}

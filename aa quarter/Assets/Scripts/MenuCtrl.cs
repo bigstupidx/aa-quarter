@@ -9,6 +9,7 @@ public class MenuCtrl : MonoBehaviour {
 	public Text successFaild;
 	public Text LevelTxt;
 	private int storedLevel;
+	public Text nextRetry;
 	public void LoadScene(string scene){
 		SceneManager.LoadScene (scene);
 	}
@@ -19,8 +20,14 @@ public class MenuCtrl : MonoBehaviour {
 		LevelTxt.text = "Level " + storedLevel;
 		successFaild.text = FindObjectOfType<PresistanceObject> ().txtString;
 		if (successFaild.text == "Faild!!") {
+			successFaild.fontSize = 80;
+			nextRetry.text = "Retry...";
+			nextRetry.color = Color.red;
 			successFaild.color = Color.red;
 		} else if(successFaild.text == "Success!!"){
+			successFaild.fontSize = 80;
+			nextRetry.text = "Next...";
+			nextRetry.color = Color.green;
 			successFaild.color = Color.green;
 		}
 	}
