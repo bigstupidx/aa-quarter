@@ -72,10 +72,12 @@ public class PinCtrl : MonoBehaviour {
 			gameCtrl.EndGame (false);
 			StartCoroutine ("Wait");
 		}
-		GameEndedWithSuccess ();
+		if (!gameEnded) {
+			GameEndedWithSuccess ();
+		}
 	}
 	void GameEndedWithSuccess(){
-		if (!gameEnded && countTxt[0].text == "0" && countTxt[1].text == "0" && countTxt[2].text == "0" && countTxt[3].text == "0") {
+		if (countTxt[0].text == "0" && countTxt[1].text == "0" && countTxt[2].text == "0" && countTxt[3].text == "0") {
 			gameEnded = true;
 			nextLevel = PlayerPrefs.GetInt ("Level", 1) + 1;
 			maxLevel = PlayerPrefs.GetInt ("MaxLevel",1);

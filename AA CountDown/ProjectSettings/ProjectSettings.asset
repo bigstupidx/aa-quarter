@@ -6,7 +6,7 @@ PlayerSettings:
   serializedVersion: 12
   productGUID: f78a3c646d2b745049db17365b03b7e6
   AndroidProfiler: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 0
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
@@ -141,7 +141,7 @@ PlayerSettings:
   targetPixelDensity: 0
   resolutionScalingMode: 0
   applicationIdentifier:
-    Android: com.mr.aaQuarter
+    Android: com.mr.AACountDown
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -160,8 +160,8 @@ PlayerSettings:
   VertexChannelCompressionMask:
     serializedVersion: 2
     m_Bits: 238
-  iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 
+  iPhoneSdkVersion: 989
+  iOSTargetOSVersionString: 7.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 
@@ -591,9 +591,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 8347d721-3352-46c7-a0ad-20ce29bb35e6
-  projectName: aa quarter
-  organizationId: rabeem
+  cloudProjectId: 68e067f0-50c1-457b-8a2d-35e0f5c3e132
+  projectName: AA CountDown
+  organizationId: rabee1981
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

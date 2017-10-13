@@ -1379,7 +1379,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.65354973, g: 1, b: 0.58823526, a: 0}
+  m_BackGroundColor: {r: 0.99607843, g: 1, b: 0.91764706, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -2510,6 +2510,8 @@ MonoBehaviour:
   blue1Txt: {fileID: 1431800148}
   orange2Txt: {fileID: 1431800147}
   blue2Txt: {fileID: 1431800146}
+  heartsCountTxt: {fileID: 0}
+  levelTxt: {fileID: 0}
 --- !u!4 &1758824913
 Transform:
   m_ObjectHideFlags: 0

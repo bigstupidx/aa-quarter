@@ -13,9 +13,6 @@ public class MenuCtrl : MonoBehaviour {
 	public Text levelToReplay;
 	public Text errorTxt;
 	public GameObject replayLevelCanvas;
-	public void LoadScene(string scene){
-		SceneManager.LoadScene (scene);
-	}
 
 	void Start() {
 		//PlayerPrefs.DeleteAll ();
@@ -34,6 +31,11 @@ public class MenuCtrl : MonoBehaviour {
 			successFaild.color = Color.green;
 		}
 	}
+
+	public void LoadScene(string scene){
+		SceneManager.LoadScene (scene);
+	}
+
 	void Update(){
 		storedLevel = PlayerPrefs.GetInt ("Level",1);
 		LevelTxt.text = "Level " + storedLevel;
@@ -60,6 +62,10 @@ public class MenuCtrl : MonoBehaviour {
 					replayLevelCanvas.SetActive (false);
 				} else {
 					errorTxt.text = "That level has not been passed yet!";
+					//for testing
+					//TODO remove when publish
+					PlayerPrefs.SetInt ("Level", gotoLevel);
+					replayLevelCanvas.SetActive (false);
 				}
 			} else {
 				errorTxt.text =  "Plaese enter a positive number";

@@ -29,21 +29,72 @@
             "blue1txt" : "1",
             "orange2txt" : "1",
             "blue2txt" : "1",
-            "activePins" : [0,1,0,0,0,1,0,0,
-                            0,1,0,0,0,1,0,0,
-                            0,1,0,0,0,1,0,0,
-                            0,1,0,0,0,1,0,0]
+            "activePins" : [0,0,0,0,1,0,0,0,
+                            0,0,0,0,1,0,0,0,
+                            0,0,0,0,1,0,0,0,
+                            0,0,0,0,1,0,0,0]
         },
 		{
 			"levelNumber" : 3,
-            "direction" : -1,
+            "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
 			"speedMin" : 60,
 			"speedMax" : 120,
             "circleSpeed" : 80,
-            "orange1txt" : "1",
+            "orange1txt" : "2",
             "blue1txt" : "2",
+            "orange2txt" : "1",
+            "blue2txt" : "2",
+            "activePins" : [0,0,0,0,1,0,0,0,
+                            0,0,0,0,1,0,0,0,
+                            0,0,0,0,1,0,0,0,
+                            0,0,0,0,1,0,0,0]
+        },
+		{
+			"levelNumber" : 4,
+            "direction" : -1,
+            "pinSpeed" : 20,
+            "toChangeSpeed" : false,
+			"speedMin" : 60,
+			"speedMax" : 120,
+            "circleSpeed" : -80,
+            "orange1txt" : "2",
+            "blue1txt" : "2",
+            "orange2txt" : "2",
+            "blue2txt" : "3",
+            "activePins" : [0,0,0,0,1,0,0,0,
+                            0,0,0,0,1,0,0,0,
+                            0,0,0,0,1,0,0,0,
+                            0,0,0,0,1,0,0,0]
+        },
+		{
+			"levelNumber" : 5,
+            "direction" : 1,
+            "pinSpeed" : 20,
+            "toChangeSpeed" : true,
+			"speedMin" : 60,
+			"speedMax" : 120,
+            "circleSpeed" : 80,
+            "orange1txt" : "2",
+            "blue1txt" : "1",
+            "orange2txt" : "2",
+            "blue2txt" : "2",
+            "activePins" : [0,0,0,0,1,0,0,0,
+                            0,0,0,0,1,0,0,0,
+                            0,0,0,0,1,0,0,0,
+                            0,0,0,0,1,0,0,0]
+        },
+		{
+			"levelNumber" : 6,
+            "direction" : 1,
+            "pinSpeed" : 20,
+            "toChangeSpeed" : false,
+			"speedMin" : 60,
+			"speedMax" : 120,
+            "circleSpeed" : -80,
+            "orange1txt" : "1",
+            "blue1txt" : "3",
             "orange2txt" : "1",
             "blue2txt" : "1",
             "activePins" : [0,1,0,0,0,1,0,0,
@@ -52,7 +103,24 @@
                             0,1,0,0,0,1,0,0]
         },
 		{
-			"levelNumber" : 4,
+			"levelNumber" : 7,
+            "direction" : -1,
+            "pinSpeed" : 20,
+            "toChangeSpeed" : false,
+			"speedMin" : 60,
+			"speedMax" : 120,
+            "circleSpeed" : 80,
+            "orange1txt" : "1",
+            "blue1txt" : "3",
+            "orange2txt" : "3",
+            "blue2txt" : "1",
+            "activePins" : [0,1,0,0,0,1,0,0,
+                            0,1,0,0,0,1,0,0,
+                            0,1,0,0,0,1,0,0,
+                            0,1,0,0,0,1,0,0]
+        },
+		{
+			"levelNumber" : 8,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -61,14 +129,14 @@
             "circleSpeed" : -80,
             "orange1txt" : "3",
             "blue1txt" : "1",
-            "orange2txt" : "1",
+            "orange2txt" : "2",
             "blue2txt" : "2",
             "activePins" : [0,0,1,0,0,0,1,0,
                             0,0,1,0,0,0,1,0,
                             0,0,1,0,0,0,1,0,
                             0,0,1,0,0,0,1,0]
         },{
-			"levelNumber" : 5,
+			"levelNumber" : 9,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -85,7 +153,7 @@
                             0,0,1,0,0,0,1,0]
         },
 		{
-			"levelNumber" : 6,
+			"levelNumber" : 10,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : true,
@@ -102,7 +170,7 @@
                             0,1,0,0,0,1,0,0]
         },
 		{
-			"levelNumber" : 7,
+			"levelNumber" : 11,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -118,7 +186,7 @@
                             0,1,0,0,0,1,0,0,
                             0,1,0,0,0,1,0,0]
         },{
-			"levelNumber" : 8,
+			"levelNumber" : 12,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -134,7 +202,7 @@
                             0,1,1,0,0,0,1,1,
                             0,1,1,0,0,0,1,1]
         },{
-			"levelNumber" : 8,
+			"levelNumber" : 13,
             "direction" : -1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -150,7 +218,7 @@
                             0,1,1,0,0,0,1,1,
                             0,1,1,0,0,0,1,1]
         },{
-			"levelNumber" : 9,
+			"levelNumber" : 14,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : true,
@@ -166,7 +234,7 @@
                             0,1,1,0,0,0,1,1,
                             0,1,1,0,0,0,1,1]
         },{
-			"levelNumber" : 10,
+			"levelNumber" : 15,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -182,7 +250,7 @@
                             0,0,0,0,0,0,0,0,
                             0,0,0,0,0,0,0,0]
         },{
-            "levelNumber" : 11,
+            "levelNumber" : 16,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -198,7 +266,7 @@
                             1,0,0,1,1,0,0,1,
                             1,0,0,1,1,0,0,1]
         },{
-            "levelNumber" : 12,
+            "levelNumber" : 17,
             "direction" : -1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -214,7 +282,7 @@
                             1,0,0,1,1,0,0,1,
                             1,0,0,1,1,0,0,1]
         },{
-            "levelNumber" : 13,
+            "levelNumber" : 18,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : true,
@@ -231,7 +299,7 @@
                             1,0,0,1,1,0,0,1]
         },
 		{
-            "levelNumber" : 14,
+            "levelNumber" : 19,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -248,7 +316,7 @@
                             1,0,0,1,1,0,0,1]
         },
 		{
-            "levelNumber" : 15,
+            "levelNumber" : 20,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -265,7 +333,7 @@
                             1,0,1,0,1,0,1,0]
         },
 		{
-            "levelNumber" : 16,
+            "levelNumber" : 21,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -282,7 +350,7 @@
                             1,0,1,0,1,0,1,0]
         },
 		{
-            "levelNumber" : 17,
+            "levelNumber" : 22,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : true,
@@ -299,7 +367,7 @@
                             1,0,1,0,1,0,1,0]
         },
 		{
-            "levelNumber" : 18,
+            "levelNumber" : 23,
             "direction" : -1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -315,7 +383,7 @@
                             1,0,1,0,1,0,1,0,
                             1,0,1,0,1,0,1,0]
         },{
-            "levelNumber" : 19,
+            "levelNumber" : 24,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -331,7 +399,7 @@
                             0,1,1,1,0,0,1,1,
                             0,1,1,1,0,0,1,1]
         },{
-            "levelNumber" : 20,
+            "levelNumber" : 25,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -347,7 +415,7 @@
                             0,0,0,0,0,0,0,0,
                             0,0,0,0,0,0,0,0]
         },{
-            "levelNumber" : 21,
+            "levelNumber" : 26,
             "direction" : -1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -363,7 +431,7 @@
                             0,1,1,1,0,0,1,1,
                             0,1,1,1,0,0,1,1]
         },{
-            "levelNumber" : 22,
+            "levelNumber" : 27,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : true,
@@ -379,7 +447,7 @@
                             0,1,1,1,0,0,1,1,
                             0,1,1,1,0,0,1,1]
         },{
-            "levelNumber" : 23,
+            "levelNumber" : 28,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -395,7 +463,7 @@
                             0,1,1,1,0,0,1,1,
                             0,1,1,1,0,0,1,1]
         },{
-            "levelNumber" : 24,
+            "levelNumber" : 29,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -411,7 +479,7 @@
                             0,0,1,1,0,0,1,1,
                             0,0,1,1,0,0,1,1]
         },{
-            "levelNumber" : 25,
+            "levelNumber" : 30,
             "direction" : -1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -427,7 +495,7 @@
                             0,0,1,1,0,0,1,1,
                             0,0,1,1,0,0,1,1]
         },{
-            "levelNumber" : 26,
+            "levelNumber" : 31,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -443,7 +511,7 @@
                             0,0,1,1,0,0,1,1,
                             0,0,1,1,0,0,1,1]
         },{
-            "levelNumber" : 27,
+            "levelNumber" : 32,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : true,
@@ -459,7 +527,7 @@
                             0,0,1,1,0,0,1,1,
                             0,0,1,1,0,0,1,1]
         },{
-            "levelNumber" : 28,
+            "levelNumber" : 33,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -475,7 +543,7 @@
                             1,0,1,1,0,0,0,1,
                             1,0,1,1,0,0,0,1]
         },{
-            "levelNumber" : 29,
+            "levelNumber" : 34,
             "direction" : -1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -491,7 +559,7 @@
                             1,0,1,1,0,0,0,1,
                             1,0,1,1,0,0,0,1]
         },{
-            "levelNumber" : 30,
+            "levelNumber" : 35,
             "direction" : -1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -507,7 +575,7 @@
                             0,0,0,0,0,0,0,0,
                             0,0,0,0,0,0,0,0]
         },{
-            "levelNumber" : 31,
+            "levelNumber" : 36,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -523,7 +591,7 @@
                             1,0,1,1,0,0,0,1,
                             1,0,1,1,0,0,0,1]
         },{
-            "levelNumber" : 32,
+            "levelNumber" : 37,
             "direction" : -1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -539,7 +607,7 @@
                             1,0,1,1,0,0,0,1,
                             1,0,1,1,0,0,0,1]
         },{
-            "levelNumber" : 33,
+            "levelNumber" : 38,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : true,
@@ -555,7 +623,7 @@
                             1,0,1,1,0,0,0,1,
                             1,0,1,1,0,0,0,1]
         },{
-            "levelNumber" : 34,
+            "levelNumber" : 39,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -571,7 +639,7 @@
                             0,1,1,1,1,1,1,1,
                             0,1,1,1,1,1,1,1]
         },{
-            "levelNumber" : 35,
+            "levelNumber" : 40,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -587,7 +655,7 @@
                             0,1,1,1,1,1,1,1,
                             0,1,1,1,1,1,1,1]
         },{
-            "levelNumber" : 36,
+            "levelNumber" : 41,
             "direction" : -1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -603,7 +671,7 @@
                             0,1,1,1,1,1,1,1,
                             0,1,1,1,1,1,1,1]
         },{
-            "levelNumber" : 37,
+            "levelNumber" : 42,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : true,
@@ -619,7 +687,7 @@
                             0,1,1,1,1,1,1,1,
                             0,1,1,1,1,1,1,1]
         },{
-            "levelNumber" : 38,
+            "levelNumber" : 43,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -635,7 +703,7 @@
                             1,0,1,1,0,0,0,1,
                             1,0,1,1,0,0,0,1]
         },{
-            "levelNumber" : 39,
+            "levelNumber" : 44,
             "direction" : -1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
@@ -651,7 +719,7 @@
                             0,0,1,1,0,0,1,1,
                             0,0,1,1,0,0,1,1]
         },{
-            "levelNumber" : 40,
+            "levelNumber" : 45,
             "direction" : 1,
             "pinSpeed" : 20,
             "toChangeSpeed" : false,
