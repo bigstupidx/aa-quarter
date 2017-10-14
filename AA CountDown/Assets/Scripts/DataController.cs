@@ -5,23 +5,22 @@ using UnityEngine.SceneManagement;
 using System.IO;
 
 public class DataController : MonoBehaviour {
-
-	private LevelData[] allLevelData;
+	
+	public LevelData[] allLevelData = new LevelData[100];
 	void Start () {
 		DontDestroyOnLoad (gameObject);
-		LoadGameData ();
+		//LoadGameData ();
 		SceneManager.LoadScene ("Menu");
 	}
 	public LevelData GetCurrentLevelData(int level){
-		return allLevelData [level-1];
+		return allLevelData [level];
 	}
-	// Update is called once per frame
-	void Update () {
-		
+	void OnValidate(){
+		allLevelData [0] = new LevelData ();
 	}
-	private void LoadGameData(){
-		TextAsset dataAsJson = Resources.Load<TextAsset>("LevelData");
-		GameData loadedData = JsonUtility.FromJson<GameData> (dataAsJson.text);
-		allLevelData = loadedData.allLevelData;
-	}
+//	private void LoadGameData(){
+//		TextAsset dataAsJson = Resources.Load<TextAsset>("LevelData");
+//		GameData loadedData = JsonUtility.FromJson<GameData> (dataAsJson.text);
+//		allLevelData = loadedData.allLevelData;
+//	}
 }

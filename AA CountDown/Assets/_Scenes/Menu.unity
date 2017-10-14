@@ -755,7 +755,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 37}
-  m_SizeDelta: {x: 186.8, y: 100}
+  m_SizeDelta: {x: 180, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &475827848
 MonoBehaviour:
@@ -778,10 +778,10 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 0.9764706, g: 0.4745098, b: 0.02745098, a: 1}
     m_HighlightedColor: {r: 0.9764706, g: 0.4745098, b: 0.02745098, a: 1}
-    m_PressedColor: {r: 0.9764706, g: 0.674, b: 0.02745098, a: 1}
+    m_PressedColor: {r: 0.9764706, g: 0.6745098, b: 0.02745098, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
-    m_FadeDuration: 0
+    m_FadeDuration: 0.05
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
@@ -1067,6 +1067,7 @@ MonoBehaviour:
   nextRetry: {fileID: 1123410908}
   levelToReplay: {fileID: 1999331973}
   errorTxt: {fileID: 1869807342}
+  isTest: 1
   replayLevelCanvas: {fileID: 1216689064}
 --- !u!4 &797727188
 Transform:
@@ -1781,7 +1782,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1869807341
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2095,8 +2096,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -93.899994}
-  m_SizeDelta: {x: 186.8, y: 100}
+  m_AnchoredPosition: {x: 0, y: -79}
+  m_SizeDelta: {x: 180, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2119283371
 MonoBehaviour:

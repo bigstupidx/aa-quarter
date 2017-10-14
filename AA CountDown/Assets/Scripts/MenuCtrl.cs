@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+#if UNITY_IOS
+using UnityEngine.iOS;
+#endif
 
 public class MenuCtrl : MonoBehaviour {
 
@@ -12,6 +15,7 @@ public class MenuCtrl : MonoBehaviour {
 	public Text nextRetry;
 	public Text levelToReplay;
 	public Text errorTxt;
+	public bool isTest = false; //TODO remove when public
 	public GameObject replayLevelCanvas;
 
 	void Start() {
@@ -33,6 +37,16 @@ public class MenuCtrl : MonoBehaviour {
 	}
 
 	public void LoadScene(string scene){
+		int adsCount;
+		adsCount = PlayerPrefs .GetInt("adsCount",5);
+		if (adsCount <= 0) {
+			AdManager.Instance.ShowUnityAd ("video", true);
+			PlayerPrefs.SetInt ("adsCount",5);
+		} else {
+			adsCount--;
+			PlayerPrefs.SetInt ("adsCount",adsCount);
+		}
+		Debug.Log (adsCount);
 		SceneManager.LoadScene (scene);
 	}
 
@@ -57,15 +71,11 @@ public class MenuCtrl : MonoBehaviour {
 		if (int.TryParse (levelToReplay.text, out gotoLevel)) {
 			if (gotoLevel > 0) {
 				int maxLevel = PlayerPrefs.GetInt ("MaxLevel", 1);
-				if (gotoLevel <= maxLevel) {
+				if (gotoLevel <= maxLevel || isTest) {
 					PlayerPrefs.SetInt ("Level", gotoLevel);
 					replayLevelCanvas.SetActive (false);
 				} else {
 					errorTxt.text = "That level has not been passed yet!";
-					//for testing
-					//TODO remove when publish
-					PlayerPrefs.SetInt ("Level", gotoLevel);
-					replayLevelCanvas.SetActive (false);
 				}
 			} else {
 				errorTxt.text =  "Plaese enter a positive number";
@@ -74,4 +84,5 @@ public class MenuCtrl : MonoBehaviour {
 			errorTxt.text =  "Plaese enter a number";
 		}
 	}
+
 }

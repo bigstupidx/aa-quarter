@@ -32,7 +32,7 @@ public class PinCtrl : MonoBehaviour {
 		dataController = FindObjectOfType<DataController> ();
 		levelData = dataController.GetCurrentLevelData (currentLevel);
 		speed = levelData.pinSpeed;
-		direction = levelData.direction;
+		direction = levelData.directionSwap ? -1 : 1;
 		toChangeSpeed = levelData.toChangeSpeed;
 	}
 	// Update is called once per frame
@@ -93,7 +93,6 @@ public class PinCtrl : MonoBehaviour {
 	IEnumerator Wait()
 	{
 		yield return new WaitForSeconds(0.7f);
-
 		SceneManager.LoadScene ("Menu");
 	}
 }

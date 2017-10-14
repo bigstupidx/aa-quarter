@@ -4,16 +4,17 @@ using UnityEngine;
 
 [System.Serializable]
 public class LevelData {
-	public int levelNumber;
-	public int direction;
-	public float pinSpeed;
-	public float circleSpeed;
+	public bool directionSwap;
+	public float pinSpeed = 20;
+	public float circleSpeed = 80;
+	public bool clockwise = true;
 	public bool toChangeSpeed;
-	public float speedMin;
-	public float speedMax;
+	public float speedMin = 60;
+	public float speedMax = 120;
 	public string orange1txt;
 	public string blue1txt;
 	public string orange2txt;
 	public string blue2txt;
-	public int[] activePins;
+	public bool[] activePins = new bool[8];
+
 }

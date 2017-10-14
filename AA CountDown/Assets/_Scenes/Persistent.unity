@@ -175,6 +175,127 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39ff4e7ff0a9f4095b629c0bd95fa88b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allLevelData:
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 1
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 
+    blue1txt: 
+    orange2txt: 
+    blue2txt: 
+    activePins: 0000000000000000
+  - directionSwap: 1
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 1
+    toChangeSpeed: 1
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 3
+    blue1txt: 3
+    orange2txt: 3
+    blue2txt: 3
+    activePins: 0101000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 1
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 
+    blue1txt: 
+    orange2txt: 
+    blue2txt: 
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 1
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 
+    blue1txt: 
+    orange2txt: 
+    blue2txt: 
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 1
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 
+    blue1txt: 
+    orange2txt: 
+    blue2txt: 
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 1
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 
+    blue1txt: 
+    orange2txt: 
+    blue2txt: 
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 1
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 
+    blue1txt: 
+    orange2txt: 
+    blue2txt: 
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 1
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 
+    blue1txt: 
+    orange2txt: 
+    blue2txt: 
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 1
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 
+    blue1txt: 
+    orange2txt: 
+    blue2txt: 
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 1
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 
+    blue1txt: 
+    orange2txt: 
+    blue2txt: 
+    activePins: 0000000000000000
 --- !u!4 &2061339569
 Transform:
   m_ObjectHideFlags: 0

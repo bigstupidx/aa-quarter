@@ -19,7 +19,6 @@ public class GameCtrl : MonoBehaviour {
 			animator.SetTrigger ("EndGameSuccess");
 		} else {
 			animator.SetTrigger ("EndGameFaild");
-			AdManager.Instance.ShowUnityAd ("video", true);
 		}
 
 		gameHasEnded = true;
