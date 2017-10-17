@@ -18,7 +18,7 @@ public class CircleCtrl : MonoBehaviour {
 		dataController = FindObjectOfType<DataController> ();
 		levelData = dataController.GetCurrentLevelData (currentLevel);
 
-		speed = levelData.circleSpeed * (levelData.clockwise ? -1: 1);
+		speed = levelData.circleSpeed * (levelData.clockwise ? 1: -1);
 		minSpeed = levelData.speedMin;
 		maxSpeed = levelData.speedMax;
 		activePins = levelData.activePins;

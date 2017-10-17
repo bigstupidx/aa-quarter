@@ -7,7 +7,7 @@ public class LevelData {
 	public bool directionSwap;
 	public float pinSpeed = 20;
 	public float circleSpeed = 80;
-	public bool clockwise = true;
+	public bool clockwise = false;
 	public bool toChangeSpeed;
 	public float speedMin = 60;
 	public float speedMax = 120;

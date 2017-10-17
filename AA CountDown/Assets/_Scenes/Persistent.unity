@@ -179,7 +179,7 @@ MonoBehaviour:
   - directionSwap: 0
     pinSpeed: 20
     circleSpeed: 80
-    clockwise: 1
+    clockwise: 0
     toChangeSpeed: 0
     speedMin: 60
     speedMax: 120
@@ -188,113 +188,1505 @@ MonoBehaviour:
     orange2txt: 
     blue2txt: 
     activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 0
+    blue1txt: 0
+    orange2txt: 0
+    blue2txt: 3
+    activePins: 0000000001000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 1
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 1
+    blue2txt: 1
+    activePins: 0001000000000001
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 1
+    blue2txt: 2
+    activePins: 0001010000000101
   - directionSwap: 1
     pinSpeed: 20
     circleSpeed: 80
     clockwise: 1
-    toChangeSpeed: 1
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 1
+    blue2txt: 3
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 1
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 1
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 1
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 2
+    blue2txt: 2
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 2
+    blue2txt: 3
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 2
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 2
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 2
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 3
+    blue2txt: 3
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 3
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 3
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 3
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 4
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 4
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 4
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 5
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 5
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 1
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 2
+    orange2txt: 2
+    blue2txt: 2
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 2
+    orange2txt: 2
+    blue2txt: 3
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 2
+    orange2txt: 2
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 2
+    orange2txt: 2
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 2
+    orange2txt: 2
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 2
+    orange2txt: 3
+    blue2txt: 3
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 2
+    orange2txt: 3
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 2
+    orange2txt: 3
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 2
+    orange2txt: 3
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 2
+    orange2txt: 4
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 2
+    orange2txt: 4
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 2
+    orange2txt: 4
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 2
+    orange2txt: 5
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 2
+    orange2txt: 5
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 2
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 3
+    orange2txt: 3
+    blue2txt: 3
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 3
+    orange2txt: 3
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 3
+    orange2txt: 3
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 3
+    orange2txt: 3
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 3
+    orange2txt: 4
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 3
+    orange2txt: 4
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 3
+    orange2txt: 4
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 3
+    orange2txt: 5
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 3
+    orange2txt: 5
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 3
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 4
+    orange2txt: 4
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 4
+    orange2txt: 4
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 4
+    orange2txt: 4
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 4
+    orange2txt: 5
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 4
+    orange2txt: 5
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 4
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 5
+    orange2txt: 5
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 5
+    orange2txt: 5
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 5
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 1
+    blue1txt: 6
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 2
+    orange2txt: 2
+    blue2txt: 2
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 2
+    orange2txt: 2
+    blue2txt: 3
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 2
+    orange2txt: 2
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 2
+    orange2txt: 2
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 2
+    orange2txt: 2
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 2
+    orange2txt: 3
+    blue2txt: 3
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 2
+    orange2txt: 3
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 2
+    orange2txt: 3
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 2
+    orange2txt: 3
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 2
+    orange2txt: 4
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 2
+    orange2txt: 4
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 2
+    orange2txt: 4
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 2
+    orange2txt: 5
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 2
+    orange2txt: 5
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 2
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 3
+    orange2txt: 3
+    blue2txt: 3
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 3
+    orange2txt: 3
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 3
+    orange2txt: 3
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 3
+    orange2txt: 3
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 3
+    orange2txt: 4
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 3
+    orange2txt: 4
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 3
+    orange2txt: 4
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 3
+    orange2txt: 5
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 3
+    orange2txt: 5
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 3
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 4
+    orange2txt: 4
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 4
+    orange2txt: 4
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 4
+    orange2txt: 4
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 4
+    orange2txt: 5
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 4
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 5
+    orange2txt: 5
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 5
+    orange2txt: 5
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 2
+    blue1txt: 5
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
     speedMin: 60
     speedMax: 120
     orange1txt: 3
     blue1txt: 3
     orange2txt: 3
     blue2txt: 3
-    activePins: 0101000000000000
-  - directionSwap: 0
-    pinSpeed: 20
-    circleSpeed: 80
-    clockwise: 1
-    toChangeSpeed: 0
-    speedMin: 60
-    speedMax: 120
-    orange1txt: 
-    blue1txt: 
-    orange2txt: 
-    blue2txt: 
     activePins: 0000000000000000
   - directionSwap: 0
     pinSpeed: 20
     circleSpeed: 80
-    clockwise: 1
+    clockwise: 0
     toChangeSpeed: 0
     speedMin: 60
     speedMax: 120
-    orange1txt: 
-    blue1txt: 
-    orange2txt: 
-    blue2txt: 
+    orange1txt: 3
+    blue1txt: 3
+    orange2txt: 3
+    blue2txt: 4
     activePins: 0000000000000000
   - directionSwap: 0
     pinSpeed: 20
     circleSpeed: 80
-    clockwise: 1
+    clockwise: 0
     toChangeSpeed: 0
     speedMin: 60
     speedMax: 120
-    orange1txt: 
-    blue1txt: 
-    orange2txt: 
-    blue2txt: 
+    orange1txt: 3
+    blue1txt: 3
+    orange2txt: 3
+    blue2txt: 5
     activePins: 0000000000000000
   - directionSwap: 0
     pinSpeed: 20
     circleSpeed: 80
-    clockwise: 1
+    clockwise: 0
     toChangeSpeed: 0
     speedMin: 60
     speedMax: 120
-    orange1txt: 
-    blue1txt: 
-    orange2txt: 
-    blue2txt: 
+    orange1txt: 3
+    blue1txt: 3
+    orange2txt: 3
+    blue2txt: 6
     activePins: 0000000000000000
   - directionSwap: 0
     pinSpeed: 20
     circleSpeed: 80
-    clockwise: 1
+    clockwise: 0
     toChangeSpeed: 0
     speedMin: 60
     speedMax: 120
-    orange1txt: 
-    blue1txt: 
-    orange2txt: 
-    blue2txt: 
+    orange1txt: 3
+    blue1txt: 3
+    orange2txt: 4
+    blue2txt: 4
     activePins: 0000000000000000
   - directionSwap: 0
     pinSpeed: 20
     circleSpeed: 80
-    clockwise: 1
+    clockwise: 0
     toChangeSpeed: 0
     speedMin: 60
     speedMax: 120
-    orange1txt: 
-    blue1txt: 
-    orange2txt: 
-    blue2txt: 
+    orange1txt: 3
+    blue1txt: 3
+    orange2txt: 4
+    blue2txt: 5
     activePins: 0000000000000000
   - directionSwap: 0
     pinSpeed: 20
     circleSpeed: 80
-    clockwise: 1
+    clockwise: 0
     toChangeSpeed: 0
     speedMin: 60
     speedMax: 120
-    orange1txt: 
-    blue1txt: 
-    orange2txt: 
-    blue2txt: 
+    orange1txt: 3
+    blue1txt: 3
+    orange2txt: 5
+    blue2txt: 6
     activePins: 0000000000000000
   - directionSwap: 0
     pinSpeed: 20
     circleSpeed: 80
-    clockwise: 1
+    clockwise: 0
     toChangeSpeed: 0
     speedMin: 60
     speedMax: 120
-    orange1txt: 
-    blue1txt: 
-    orange2txt: 
-    blue2txt: 
+    orange1txt: 3
+    blue1txt: 3
+    orange2txt: 5
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 3
+    blue1txt: 3
+    orange2txt: 5
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 3
+    blue1txt: 3
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 3
+    blue1txt: 4
+    orange2txt: 4
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 3
+    blue1txt: 4
+    orange2txt: 4
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 3
+    blue1txt: 4
+    orange2txt: 4
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 3
+    blue1txt: 4
+    orange2txt: 5
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 3
+    blue1txt: 4
+    orange2txt: 5
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 3
+    blue1txt: 4
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 3
+    blue1txt: 5
+    orange2txt: 5
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 3
+    blue1txt: 5
+    orange2txt: 5
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 3
+    blue1txt: 5
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 3
+    blue1txt: 6
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 4
+    blue1txt: 4
+    orange2txt: 4
+    blue2txt: 4
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 4
+    blue1txt: 4
+    orange2txt: 4
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 4
+    blue1txt: 4
+    orange2txt: 4
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 4
+    blue1txt: 4
+    orange2txt: 5
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 4
+    blue1txt: 4
+    orange2txt: 5
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 4
+    blue1txt: 4
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 4
+    blue1txt: 5
+    orange2txt: 5
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 4
+    blue1txt: 5
+    orange2txt: 5
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 4
+    blue1txt: 5
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 4
+    blue1txt: 6
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 5
+    blue1txt: 5
+    orange2txt: 5
+    blue2txt: 5
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 5
+    blue1txt: 5
+    orange2txt: 5
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 5
+    blue1txt: 5
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 5
+    blue1txt: 6
+    orange2txt: 6
+    blue2txt: 6
+    activePins: 0000000000000000
+  - directionSwap: 0
+    pinSpeed: 20
+    circleSpeed: 80
+    clockwise: 0
+    toChangeSpeed: 0
+    speedMin: 60
+    speedMax: 120
+    orange1txt: 6
+    blue1txt: 6
+    orange2txt: 6
+    blue2txt: 6
     activePins: 0000000000000000
 --- !u!4 &2061339569
 Transform:

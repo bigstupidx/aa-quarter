@@ -20,10 +20,10 @@ public class PinCtrl : MonoBehaviour {
 	private DataController dataController;
 	private LevelData levelData;
 	private int direction = 1;
-	private new AudioSource[] audio;
+	private AudioSource[] myAudio;
 	private int maxLevel;
 	void Start(){
-		audio = gameObject.GetComponents<AudioSource> ();
+		myAudio = gameObject.GetComponents<AudioSource> ();
 		currentLevel = PlayerPrefs.GetInt ("Level", 1);
 		circle = GameObject.FindGameObjectWithTag("Rotator");
 		countTxt = circle.GetComponentsInChildren<Text> ();
@@ -54,10 +54,10 @@ public class PinCtrl : MonoBehaviour {
 				presistanceObject.ChangeTxt ("Failed!!");
 				gameCtrl.EndGame (false);
 				StartCoroutine ("Wait");
-				audio[1].Play ();
+				myAudio[1].Play ();
 				return;
 			}
-			audio[0].Play();
+			myAudio[0].Play();
 			current--;
 			txt.text = current.ToString ();
 			circleCtrl.speed *= direction;
@@ -66,7 +66,7 @@ public class PinCtrl : MonoBehaviour {
 			}
 
 		} else if (col.tag == "Pin") {
-			audio[1].Play ();
+			myAudio[1].Play ();
 			gameEnded = true;
 			presistanceObject.ChangeTxt ("Failed!!");
 			gameCtrl.EndGame (false);
@@ -78,6 +78,7 @@ public class PinCtrl : MonoBehaviour {
 	}
 	void GameEndedWithSuccess(){
 		if (countTxt[0].text == "0" && countTxt[1].text == "0" && countTxt[2].text == "0" && countTxt[3].text == "0") {
+			myAudio[2].Play ();
 			gameEnded = true;
 			nextLevel = PlayerPrefs.GetInt ("Level", 1) + 1;
 			maxLevel = PlayerPrefs.GetInt ("MaxLevel",1);
