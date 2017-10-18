@@ -10,7 +10,7 @@ public class PinCtrl : MonoBehaviour {
 	private Text txt;
 	private bool isPinned = false;
 	private GameObject circle;
-	private bool toChangeSpeed;
+	private int toChangeSpeed;
 	private Text[] countTxt;
 	private PresistanceObject presistanceObject;
 	private GameCtrl gameCtrl;
@@ -31,8 +31,7 @@ public class PinCtrl : MonoBehaviour {
 		gameCtrl = FindObjectOfType<GameCtrl> ();
 		dataController = FindObjectOfType<DataController> ();
 		levelData = dataController.GetCurrentLevelData (currentLevel);
-		speed = levelData.pinSpeed;
-		direction = levelData.directionSwap ? -1 : 1;
+		direction = levelData.directionSwap;
 		toChangeSpeed = levelData.toChangeSpeed;
 	}
 	// Update is called once per frame
@@ -61,7 +60,7 @@ public class PinCtrl : MonoBehaviour {
 			current--;
 			txt.text = current.ToString ();
 			circleCtrl.speed *= direction;
-			if (toChangeSpeed) {
+			if (toChangeSpeed == 1) {
 				circleCtrl.ChangeSpeed ();
 			}
 

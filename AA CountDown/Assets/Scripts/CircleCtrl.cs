@@ -8,7 +8,7 @@ public class CircleCtrl : MonoBehaviour {
 	private DataController dataController;
 	private LevelData levelData;
 	public GameObject[] staticPins;
-	public bool[] activePins;
+	public int[] activePins;
 	private int speedUp = 1;
 	private float minSpeed;
 	private float maxSpeed;
@@ -18,12 +18,12 @@ public class CircleCtrl : MonoBehaviour {
 		dataController = FindObjectOfType<DataController> ();
 		levelData = dataController.GetCurrentLevelData (currentLevel);
 
-		speed = levelData.circleSpeed * (levelData.clockwise ? 1: -1);
+		speed = levelData.circleSpeed * (currentLevel%2 == 0 ? 1: -1);
 		minSpeed = levelData.speedMin;
 		maxSpeed = levelData.speedMax;
 		activePins = levelData.activePins;
 		for (int i = 0; i < 32; i++) {
-			if (!activePins [i%8]) {
+			if (activePins [i%8] == 0) {
 				staticPins [i].SetActive(false);
 			}
 		}
@@ -35,9 +35,10 @@ public class CircleCtrl : MonoBehaviour {
 	}
 
 	public void ChangeSpeed(){
-		if (speed > maxSpeed || speed < minSpeed) {
+		float absSpeed = Mathf.Abs (speed);
+		if (absSpeed > maxSpeed || absSpeed < minSpeed) {
 			speedUp *= -1;
 		}
-		speed += 20f * speedUp;
+		speed = speed + 20f * speedUp;
 	}
 }

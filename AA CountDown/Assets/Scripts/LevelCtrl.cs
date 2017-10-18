@@ -19,9 +19,17 @@ public class LevelCtrl : MonoBehaviour {
 		currentLevel = PlayerPrefs.GetInt ("Level", 1);
 		dataController = FindObjectOfType<DataController> ();
 		levelData = dataController.GetCurrentLevelData (currentLevel);
-		orange1Txt.text = levelData.orange1txt;
-		orange2Txt.text = levelData.orange2txt;
-		blue1Txt.text = levelData.blue1txt;
-		blue2Txt.text = levelData.blue2txt;
+		fillQuarter ();
+	}
+
+	private void fillQuarter(){
+		int numbers = levelData.numbers;
+		orange1Txt.text = (numbers % 10).ToString ();
+		numbers /= 10;
+		orange2Txt.text = (numbers % 10).ToString ();
+		numbers /= 10;
+		blue1Txt.text = (numbers % 10).ToString ();
+		numbers /= 10;
+		blue2Txt.text = (numbers % 10).ToString ();
 	}
 }
