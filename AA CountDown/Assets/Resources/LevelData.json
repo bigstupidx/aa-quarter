@@ -3,21 +3,1136 @@
         {
             "directionSwap" : 1,
 			"circleSpeed" : 70,
-            "toChangeSpeed" : 1,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1111,
+            "activePins" : [0,0,1,0,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1112,
+            "activePins" : [0,0,1,0,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1113,
+            "activePins" : [0,1,0,1,0,1,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1114,
+            "activePins" : [0,1,1,0,0,1,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1115,
+            "activePins" : [1,0,0,0,1,0,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1116,
+            "activePins" : [0,0,1,0,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1122,
+            "activePins" : [1,0,1,0,1,0,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1123,
+            "activePins" : [1,1,0,0,0,1,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1124,
+            "activePins" : [1,0,0,0,0,1,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
 			"speedMin" : 40,
 			"speedMax" : 100,
             "numbers" : 1125,
+            "activePins" : [0,1,0,1,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1126,
+            "activePins" : [1,0,1,0,1,0,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1133,
+            "activePins" : [0,0,1,1,1,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1134,
+            "activePins" : [0,1,1,0,0,1,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1135,
+            "activePins" : [0,1,0,1,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1136,
+            "activePins" : [0,0,1,1,1,0,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1144,
+            "activePins" : [0,1,1,0,0,1,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1145,
+            "activePins" : [1,0,0,1,0,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1146,
+            "activePins" : [0,1,0,1,0,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1155,
+            "activePins" : [1,0,0,1,0,0,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1156,
+            "activePins" : [0,1,0,0,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1166,
+            "activePins" : [0,0,0,1,1,0,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1222,
+            "activePins" : [0,1,0,1,0,1,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1223,
+            "activePins" : [1,1,0,0,1,0,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1224,
+            "activePins" : [0,1,0,1,0,1,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1225,
+            "activePins" : [0,1,0,1,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1226,
+            "activePins" : [0,1,0,1,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1233,
+            "activePins" : [1,1,0,0,1,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1234,
+            "activePins" : [1,0,1,0,1,0,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1235,
+            "activePins" : [0,1,1,0,1,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1236,
+            "activePins" : [1,0,0,0,0,0,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1244,
+            "activePins" : [0,1,0,1,0,1,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1245,
+            "activePins" : [1,1,1,0,0,0,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1245,
+            "activePins" : [0,0,1,1,1,0,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1255,
+            "activePins" : [0,0,1,0,1,0,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1256,
+            "activePins" : [0,0,1,0,0,0,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1266,
+            "activePins" : [0,1,0,0,1,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1333,
+            "activePins" : [0,1,0,1,0,1,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1334,
+            "activePins" : [1,0,1,0,1,0,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1335,
+            "activePins" : [1,0,1,0,1,0,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1336,
+            "activePins" : [1,0,0,1,0,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1344,
+            "activePins" : [1,1,0,1,1,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1345,
+            "activePins" : [0,1,0,0,1,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1345,
+            "activePins" : [0,1,0,1,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1355,
+            "activePins" : [0,1,1,0,0,1,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1356,
+            "activePins" : [0,0,0,1,1,0,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1366,
+            "activePins" : [0,0,1,1,1,0,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1444,
+            "activePins" : [0,1,1,0,0,0,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1445,
+            "activePins" : [1,0,1,0,1,0,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1446,
+            "activePins" : [1,0,0,1,0,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1455,
+            "activePins" : [1,0,0,0,0,1,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1456,
+            "activePins" : [1,0,0,1,0,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1466,
+            "activePins" : [1,0,0,0,0,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1555,
+            "activePins" : [1,0,0,0,1,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1556,
+            "activePins" : [0,0,0,1,1,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1566,
+            "activePins" : [0,0,1,0,0,0,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1666,
+            "activePins" : [0,0,0,0,1,0,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2222,
+            "activePins" : [0,1,0,1,0,1,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2223,
+            "activePins" : [0,1,0,1,0,1,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2224,
+            "activePins" : [1,0,0,1,0,0,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2225,
+            "activePins" : [0,1,1,0,0,1,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2226,
+            "activePins" : [1,0,0,0,0,1,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2233,
+            "activePins" : [0,1,1,0,0,0,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2234,
+            "activePins" : [0,1,1,0,1,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2235,
+            "activePins" : [1,0,1,0,1,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2236,
+            "activePins" : [0,0,1,1,1,0,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2244,
+            "activePins" : [0,1,0,1,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2245,
+            "activePins" : [1,0,0,1,0,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2245,
+            "activePins" : [0,1,0,1,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2255,
+            "activePins" : [0,0,0,1,1,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2256,
+            "activePins" : [0,1,0,0,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2266,
+            "activePins" : [0,1,0,0,0,0,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2333,
+            "activePins" : [1,0,1,0,1,0,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2334,
+            "activePins" : [0,1,0,1,0,1,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2335,
+            "activePins" : [0,1,0,0,0,1,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2336,
+            "activePins" : [0,0,1,1,0,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2344,
+            "activePins" : [0,1,1,0,0,1,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2345,
+            "activePins" : [0,1,0,1,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2345,
+            "activePins" : [0,0,1,0,1,0,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2355,
+            "activePins" : [0,1,0,0,1,0,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2356,
+            "activePins" : [1,0,0,0,1,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2366,
+            "activePins" : [0,0,0,1,1,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2444,
+            "activePins" : [1,0,0,1,1,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2445,
+            "activePins" : [1,0,0,1,0,0,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2446,
+            "activePins" : [0,1,0,1,0,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2455,
+            "activePins" : [0,1,0,0,1,0,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2456,
+            "activePins" : [1,0,0,0,0,0,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2466,
+            "activePins" : [0,0,1,0,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2555,
+            "activePins" : [0,1,0,0,0,0,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2556,
+            "activePins" : [1,0,0,0,0,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2566,
+            "activePins" : [0,1,1,0,0,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 2666,
+            "activePins" : [0,0,1,0,0,0,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3333,
+            "activePins" : [0,1,0,0,1,0,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3334,
+            "activePins" : [1,0,1,0,1,0,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3335,
+            "activePins" : [0,1,1,0,0,0,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3336,
+            "activePins" : [1,1,0,0,0,0,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3344,
+            "activePins" : [0,0,1,1,1,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3345,
+            "activePins" : [1,1,1,1,0,0,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3345,
+            "activePins" : [0,1,0,0,1,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3355,
+            "activePins" : [0,0,1,1,1,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3356,
+            "activePins" : [0,1,0,0,0,1,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3366,
+            "activePins" : [1,0,0,0,0,1,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3444,
+            "activePins" : [0,1,1,0,1,1,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3445,
+            "activePins" : [1,0,0,1,0,0,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3446,
+            "activePins" : [0,1,1,0,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3455,
+            "activePins" : [0,0,1,0,0,1,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3456,
+            "activePins" : [1,1,0,0,1,0,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3466,
+            "activePins" : [0,1,0,1,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3555,
+            "activePins" : [1,0,1,0,0,1,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3556,
+            "activePins" : [0,0,0,1,1,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3566,
+            "activePins" : [0,1,1,0,0,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3666,
+            "activePins" : [1,0,0,0,0,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 3444,
+            "activePins" : [0,1,0,1,0,1,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 4445,
             "activePins" : [0,0,0,0,0,0,0,0]
         },
 		{
             "directionSwap" : 1,
 			"circleSpeed" : 70,
-            "toChangeSpeed" : 1,
+            "toChangeSpeed" : 0,
 			"speedMin" : 40,
 			"speedMax" : 100,
-            "numbers" : 2234,
-            "activePins" : [1,0,0,0,0,0,0,1]
+            "numbers" : 4446,
+            "activePins" : [1,0,0,1,0,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 4455,
+            "activePins" : [0,0,1,0,1,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 4456,
+            "activePins" : [0,1,0,0,0,0,1,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 4466,
+            "activePins" : [1,0,0,0,1,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 4555,
+            "activePins" : [1,0,0,0,1,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 4556,
+            "activePins" : [0,0,0,1,1,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 4566,
+            "activePins" : [1,1,1,0,0,0,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 4666,
+            "activePins" : [1,0,1,0,0,0,0,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 5555,
+            "activePins" : [0,0,1,1,1,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 5556,
+            "activePins" : [0,1,1,0,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 5566,
+            "activePins" : [1,0,0,1,1,0,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 5666,
+            "activePins" : [1,0,0,0,0,0,1,1]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 6666,
+            "activePins" : [1,0,0,1,0,0,1,0]
         }
-
     ]
 }
