@@ -1069,6 +1069,7 @@ MonoBehaviour:
   errorTxt: {fileID: 1869807342}
   isTest: 1
   replayLevelCanvas: {fileID: 1216689064}
+  btn_play: {fileID: 475827848}
 --- !u!4 &797727188
 Transform:
   m_ObjectHideFlags: 0

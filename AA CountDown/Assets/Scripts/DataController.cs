@@ -13,6 +13,7 @@ public class DataController : MonoBehaviour {
 		SceneManager.LoadScene ("Menu");
 	}
 	public LevelData GetCurrentLevelData(int level){
+		PlayerPrefs.SetInt ("lastLevel",allLevelData.Length);
 		return allLevelData [level-1];
 	}
 	private void LoadGameData(){

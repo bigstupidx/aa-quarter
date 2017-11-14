@@ -19,6 +19,24 @@
             "activePins" : [0,0,1,0,0,1,0,0]
         },
 		{
+            "directionSwap" : -1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 0,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1112,
+            "activePins" : [0,0,1,0,0,1,0,0]
+        },
+		{
+            "directionSwap" : 1,
+			"circleSpeed" : 70,
+            "toChangeSpeed" : 1,
+			"speedMin" : 40,
+			"speedMax" : 100,
+            "numbers" : 1112,
+            "activePins" : [0,0,1,0,0,1,0,0]
+        },
+		{
             "directionSwap" : 1,
 			"circleSpeed" : 70,
             "toChangeSpeed" : 0,

@@ -17,6 +17,9 @@ public class MenuCtrl : MonoBehaviour {
 	public Text errorTxt;
 	public bool isTest = false; //TODO remove when public
 	public GameObject replayLevelCanvas;
+	public Button btn_play;
+
+	private int lastLevel;
 
 	void Start() {
 		//PlayerPrefs.DeleteAll ();
@@ -29,10 +32,21 @@ public class MenuCtrl : MonoBehaviour {
 			nextRetry.color = Color.red;
 			successFaild.color = Color.red;
 		} else if(successFaild.text == "Success!!"){
-			successFaild.fontSize = 80;
-			nextRetry.text = "Next...";
-			nextRetry.color = Color.green;
-			successFaild.color = Color.green;
+			lastLevel = PlayerPrefs.GetInt ("lastLevel");
+			if (storedLevel < lastLevel) {
+				successFaild.fontSize = 80;
+				nextRetry.text = "Next...";
+				nextRetry.color = Color.green;
+				successFaild.color = Color.green;
+			} else {
+				successFaild.text = "  CONGRATULATIONS YOU REACHED THE LAST LEVEL  ";
+				successFaild.fontSize = 30;
+				nextRetry.text = "More Levels Coming Soon..";
+				nextRetry.color = Color.green;
+				successFaild.color = Color.green;
+				btn_play.interactable = false;
+			}
+
 		}
 	}
 
@@ -73,6 +87,7 @@ public class MenuCtrl : MonoBehaviour {
 				int maxLevel = PlayerPrefs.GetInt ("MaxLevel", 1);
 				if (gotoLevel <= maxLevel || isTest) {
 					PlayerPrefs.SetInt ("Level", gotoLevel);
+					btn_play.interactable = true;
 					replayLevelCanvas.SetActive (false);
 				} else {
 					errorTxt.text = "That level has not been passed yet!";

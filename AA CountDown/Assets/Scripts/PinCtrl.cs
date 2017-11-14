@@ -22,7 +22,9 @@ public class PinCtrl : MonoBehaviour {
 	private int direction = 1;
 	private AudioSource[] myAudio;
 	private int maxLevel;
+	private int isSuccess;
 	void Start(){
+		isSuccess = 0;
 		myAudio = gameObject.GetComponents<AudioSource> ();
 		currentLevel = PlayerPrefs.GetInt ("Level", 1);
 		circle = GameObject.FindGameObjectWithTag("Rotator");
@@ -64,12 +66,10 @@ public class PinCtrl : MonoBehaviour {
 				circleCtrl.ChangeSpeed ();
 			}
 
-		} else if (col.tag == "Pin") {
-			myAudio[1].Play ();
-			gameEnded = true;
-			presistanceObject.ChangeTxt ("Failed!!");
-			gameCtrl.EndGame (false);
-			StartCoroutine ("Wait");
+		} else if (col.CompareTag("Pin") && rb.transform.position.y > -2.0f) {
+			Debug.Log (col.gameObject.ToString());
+			isSuccess = -1;
+			StartCoroutine ("WaitBeforDecide");
 		}
 		if (!gameEnded) {
 			GameEndedWithSuccess ();
@@ -77,6 +77,21 @@ public class PinCtrl : MonoBehaviour {
 	}
 	void GameEndedWithSuccess(){
 		if (countTxt[0].text == "0" && countTxt[1].text == "0" && countTxt[2].text == "0" && countTxt[3].text == "0") {
+			if (isSuccess == 0) {
+				isSuccess = 1;
+			}
+			StartCoroutine ("WaitBeforDecide");
+		}
+	}
+	IEnumerator Wait()
+	{
+		yield return new WaitForSeconds(0.7f);
+		SceneManager.LoadScene ("Menu");
+	}
+	IEnumerator WaitBeforDecide()
+	{
+		yield return new WaitForSeconds(0.01f);
+		if (isSuccess == 1) {
 			myAudio[2].Play ();
 			gameEnded = true;
 			nextLevel = PlayerPrefs.GetInt ("Level", 1) + 1;
@@ -88,11 +103,13 @@ public class PinCtrl : MonoBehaviour {
 			presistanceObject.ChangeTxt("Success!!");
 			gameCtrl.EndGame(true);
 			StartCoroutine("Wait");
+		} else if(isSuccess == -1){
+			myAudio[1].Play ();
+			gameEnded = true;
+			presistanceObject.ChangeTxt ("Failed!!");
+			gameCtrl.EndGame (false);
+			StartCoroutine ("Wait");
 		}
-	}
-	IEnumerator Wait()
-	{
-		yield return new WaitForSeconds(0.7f);
-		SceneManager.LoadScene ("Menu");
+
 	}
 }
