@@ -890,12 +890,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4839b8b80a0e1495baba02537e972ded, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 05fd14036e0704e1cb803a77842dc493, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4.95, y: 4.51}
+  m_Size: {x: 3.08, y: 3.08}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -907,7 +907,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 588382768}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.35, z: 0}
+  m_LocalPosition: {x: 0, y: -2.73, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1067,7 +1067,6 @@ MonoBehaviour:
   nextRetry: {fileID: 1123410908}
   levelToReplay: {fileID: 1999331973}
   errorTxt: {fileID: 1869807342}
-  isTest: 1
   replayLevelCanvas: {fileID: 1216689064}
   btn_play: {fileID: 475827848}
 --- !u!4 &797727188

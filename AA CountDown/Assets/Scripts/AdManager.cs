@@ -30,13 +30,13 @@ public class AdManager : MonoBehaviour {
 	private void OnAd_Result(ShowResult result){
 		switch (result) {
 		case ShowResult.Finished:
-			Debug.Log ("Ad was show successfully and played ..");
+			//Debug.Log ("Ad was show successfully and played ..");
 			break;
 		case ShowResult.Skipped:
-			Debug.Log ("Ad was shown but skipped");
+			//Debug.Log ("Ad was shown but skipped");
 			break;
 		case ShowResult.Failed:
-			Debug.Log ("Ad display failed");
+			//Debug.Log ("Ad display failed");
 			break;
 		}
 	}

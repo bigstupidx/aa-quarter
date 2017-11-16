@@ -15,7 +15,7 @@ public class MenuCtrl : MonoBehaviour {
 	public Text nextRetry;
 	public Text levelToReplay;
 	public Text errorTxt;
-	public bool isTest = false; //TODO remove when public
+	//public bool isTest = false; //TODO remove when public
 	public GameObject replayLevelCanvas;
 	public Button btn_play;
 
@@ -40,8 +40,9 @@ public class MenuCtrl : MonoBehaviour {
 				successFaild.color = Color.green;
 			} else {
 				successFaild.text = "  CONGRATULATIONS YOU REACHED THE LAST LEVEL  ";
-				successFaild.fontSize = 30;
+				successFaild.fontSize = 25;
 				nextRetry.text = "More Levels Coming Soon..";
+				nextRetry.fontSize = 25;
 				nextRetry.color = Color.green;
 				successFaild.color = Color.green;
 				btn_play.interactable = false;
@@ -60,7 +61,6 @@ public class MenuCtrl : MonoBehaviour {
 			adsCount--;
 			PlayerPrefs.SetInt ("adsCount",adsCount);
 		}
-		Debug.Log (adsCount);
 		SceneManager.LoadScene (scene);
 	}
 
@@ -85,7 +85,7 @@ public class MenuCtrl : MonoBehaviour {
 		if (int.TryParse (levelToReplay.text, out gotoLevel)) {
 			if (gotoLevel > 0) {
 				int maxLevel = PlayerPrefs.GetInt ("MaxLevel", 1);
-				if (gotoLevel <= maxLevel || isTest) {
+				if (gotoLevel <= maxLevel) {
 					PlayerPrefs.SetInt ("Level", gotoLevel);
 					btn_play.interactable = true;
 					replayLevelCanvas.SetActive (false);

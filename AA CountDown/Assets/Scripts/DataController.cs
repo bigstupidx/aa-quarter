@@ -14,6 +14,7 @@ public class DataController : MonoBehaviour {
 	}
 	public LevelData GetCurrentLevelData(int level){
 		PlayerPrefs.SetInt ("lastLevel",allLevelData.Length);
+		Debug.Log ("the last level is "+allLevelData.Length);
 		return allLevelData [level-1];
 	}
 	private void LoadGameData(){

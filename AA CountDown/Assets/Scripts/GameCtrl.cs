@@ -23,4 +23,7 @@ public class GameCtrl : MonoBehaviour {
 
 		gameHasEnded = true;
 	}
+	public void StopSpawner(){
+		spawner.enabled = false;
+	}
 }

@@ -176,8 +176,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Android_Admob_Banner_ID_Test: ca-app-pub-3940256099942544/6300978111
-  Android_Admob_Banner_ID_Prod: 
-  testMode: 1
+  Android_Admob_Banner_ID_Prod: ca-app-pub-9268480526904407/1834452002
+  IOS_Admob_Banner_ID_Prod: ca-app-pub-9268480526904407/7513266040
+  testMode: 0
 --- !u!4 &1765676245
 Transform:
   m_ObjectHideFlags: 0

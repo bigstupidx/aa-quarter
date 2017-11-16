@@ -67,7 +67,6 @@ public class PinCtrl : MonoBehaviour {
 			}
 
 		} else if (col.CompareTag("Pin") && rb.transform.position.y > -2.0f) {
-			Debug.Log (col.gameObject.ToString());
 			isSuccess = -1;
 			StartCoroutine ("WaitBeforDecide");
 		}
@@ -78,6 +77,7 @@ public class PinCtrl : MonoBehaviour {
 	void GameEndedWithSuccess(){
 		if (countTxt[0].text == "0" && countTxt[1].text == "0" && countTxt[2].text == "0" && countTxt[3].text == "0") {
 			if (isSuccess == 0) {
+				gameCtrl.StopSpawner ();
 				isSuccess = 1;
 			}
 			StartCoroutine ("WaitBeforDecide");

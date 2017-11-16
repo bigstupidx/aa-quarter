@@ -390,6 +390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   rb: {fileID: 50088582947603616}
+  spawner: {fileID: 1795192518593316, guid: c4d113d8c3ff743ecbac1c2421225171, type: 2}
 --- !u!212 &212507439284586512
 SpriteRenderer:
   m_ObjectHideFlags: 1
